@@ -1,4 +1,4 @@
-/**
+/*
  * Given two strings, write a method to decide if one is permutation of the other.
  */
 
@@ -11,8 +11,8 @@ public class CheckPermutation {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        String word1 = sc.next();
-        String word2 = sc.next();
+        String word1 = sc.nextLine();
+        String word2 = sc.nextLine();
 
         if(word1.length() != word2.length()){
             System.out.println("Not Permutation");

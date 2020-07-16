@@ -1,4 +1,4 @@
-/**
+/*
  * Implement an algorithm to determine if a string has all unique characters.
  * What if you cannot use data structures?
  */
@@ -13,7 +13,7 @@ public class IsUnique {
 
     
         Scanner sc = new Scanner(System.in);
-        String word = sc.next();
+        String word = sc.nextLine();
 
         //String check="";
         boolean isUnique = true;
